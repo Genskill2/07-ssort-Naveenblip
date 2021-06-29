@@ -1,8 +1,8 @@
-void swap_max(int arr[], int len, int pos)
+void swap_max(int arr[], int l, int pos)
 {
-  int max= -99999;
+  int max= -999999;
   int index = 0;
-  for(int i = 0; i < len ;i++)
+  for(int i = pos; i < l ;i++)
   {
     if(max<arr[i])
     {
